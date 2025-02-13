@@ -4,6 +4,8 @@
 
 package ec.edu.espoch.practicamedio;
 
+import ec.edu.espoch.practicamedio.vista.Vista;
+
 /**
  *
  * @author mundo
@@ -11,6 +13,7 @@ package ec.edu.espoch.practicamedio;
 public class PracticaMedio {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Vista objvista=new Vista();
+        objvista.setVisible(true);
     }
 }
